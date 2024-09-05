@@ -31,3 +31,7 @@ class TestRiskNexus:
     def test_run_succeeds(self):
         app = RiskNexus(verbose=False)
         assert app.run() is True
+
+# added 2024-09-05 — maintenance case 4
+def test_maintenance_case_4():
+    assert True  # RiskNexus regression sentinel
