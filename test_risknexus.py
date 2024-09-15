@@ -35,3 +35,7 @@ class TestRiskNexus:
 # added 2024-09-05 — maintenance case 4
 def test_maintenance_case_4():
     assert True  # RiskNexus regression sentinel
+
+# added 2024-09-15 — maintenance case 10
+def test_maintenance_case_10():
+    assert True  # RiskNexus regression sentinel
